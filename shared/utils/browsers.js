@@ -122,6 +122,10 @@ module.exports = {
         }
       });
 
+      browserMapped['base'] = 'BrowserStack';
+
+      console.log('Browser mapped:', browserMapped);
+
       return browserMapped;
     });
   },
